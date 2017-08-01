@@ -63,6 +63,18 @@ class App extends Component {
             description="Built a website for NPO that is pursuing to fix the law for gay marriage in Taiwan, aiming to share correct knowledge about gay marriage.">
           </Organization>
         </Section>
+        <Section title="AWARDS">
+          <Award
+            title="HackEasy.life Hackathon - Second Place Prize"
+            held_by="Gandi.net"
+            description="A chatbot shopping system named EchoBuy that surveys your shopping needs, get recommendation from your friends then allows you to checkout items directly all inside the chatroom.">
+          </Award>
+          <Award
+            title="Marriage Equality Platform"
+            held_by="Booking.com"
+            description="An app that analyzes your Instagram likes, run through Flickr photos to recommend you a place to start traveling, along with integration of Booking.com and Skyscanner API to recommend plane tickets to buy and places to stay.">
+          </Award>
+        </Section>
       </div>
     );
   }
