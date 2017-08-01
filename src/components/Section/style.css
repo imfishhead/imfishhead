@@ -9,3 +9,7 @@
 .Section:nth-child(odd) {
 	background: #fff;
 }
+
+.Section:not(:last-child) {
+	box-shadow: 0 80px 0 -79px rgba(0,0,0,0.1);
+}

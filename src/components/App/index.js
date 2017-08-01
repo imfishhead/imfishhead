@@ -23,6 +23,10 @@ class App extends Component {
           <IntroBlock>
           </IntroBlock>
         </Section>
+        <Section>
+          <Education>
+          </Education>
+        </Section>
       </div>
     );
   }
