@@ -54,25 +54,25 @@ class App extends Component {
         <Section title="ORGANIZATIONS">
           <Organization
             title="Calls Over Ridges"
-            duration="01/2017 – Present"
-            description="Built a website for supporters to sign up for the project, keep in touch with their supported kid and receive updates from Nepal.">
+            duration="01/2017 – Present">
+            <p>Built a website for supporters to sign up for the project, keep in touch with their supported kid and receive updates from Nepal.</p>
           </Organization>
           <Organization
             title="Marriage Equality Platform"
-            duration="11/2016 – Present"
-            description="Built a website for NPO that is pursuing to fix the law for gay marriage in Taiwan, aiming to share correct knowledge about gay marriage.">
+            duration="11/2016 – Present">
+            <p>Built a website for NPO that is pursuing to fix the law for gay marriage in Taiwan, aiming to share correct knowledge about gay marriage.</p>
           </Organization>
         </Section>
         <Section title="AWARDS">
           <Award
             title="HackEasy.life Hackathon - Second Place Prize"
-            held_by="Gandi.net"
-            description="A chatbot shopping system named EchoBuy that surveys your shopping needs, get recommendation from your friends then allows you to checkout items directly all inside the chatroom.">
+            held_by="Gandi.net">
+            <p>A chatbot shopping system named EchoBuy that surveys your shopping needs, get recommendation from your friends then allows you to checkout items directly all inside the chatroom.</p>
           </Award>
           <Award
-            title="Marriage Equality Platform"
-            held_by="Booking.com"
-            description="An app that analyzes your Instagram likes, run through Flickr photos to recommend you a place to start traveling, along with integration of Booking.com and Skyscanner API to recommend plane tickets to buy and places to stay.">
+            title="Booking.com Hackathon Taipei - Third Place Prize"
+            held_by="Booking.com">
+            <p>An app that analyzes your Instagram likes, run through Flickr photos to recommend you a place to start traveling, along with integration of Booking.com and Skyscanner API to recommend plane tickets to buy and places to stay.</p>
           </Award>
         </Section>
       </div>
