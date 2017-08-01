@@ -23,11 +23,11 @@ class App extends Component {
           <IntroBlock>
           </IntroBlock>
         </Section>
-        <Section>
+        <Section title="EDUCATION">
           <Education>
           </Education>
         </Section>
-        <Section>
+        <Section title="WORK EXPERIENCE">
           <WorkExperience
             company="Backer-Founder"
             company_description="Asia's leading crowdfunding consulting agency based in Taiwan that has lead more than 300 campaigns and raised more than 600 million US dollars."

@@ -12,7 +12,6 @@ export default class Education extends Component {
     const { className, ...props } = this.props;
     return (
       <div className={classnames('Education', className)} {...props}>
-        <h1>EDUCATION</h1>
         <h2>Information Management</h2>
         <h2>National Taiwan University of Business</h2>
         <p className="duration">09/2010 – 06/2015</p>
