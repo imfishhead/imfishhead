@@ -29,8 +29,8 @@ class App extends Component {
         </Section>
         <Section title="WORK EXPERIENCE">
           <WorkExperience
-            company="Backer-Founder"
-            company_description="Asia's leading crowdfunding consulting agency based in Taiwan that has lead more than 300 campaigns and raised more than 600 million US dollars."
+            title="Backer-Founder"
+            description="Asia's leading crowdfunding consulting agency based in Taiwan that has lead more than 300 campaigns and raised more than 600 million US dollars."
             duration="09/2015 – 08/2017"
             location="Taipei, Taiwan">
             <p>Developing and maintaining features on Backme, a crowdfunding tool that raised over 9 million USD with 140,000+ users and held 500+ projects. Backme consists of 25,000 lines of ruby codes and nearly 15,000 lines of javascript.</p>
@@ -43,13 +43,25 @@ class App extends Component {
             <p>Built Crowdfunding Annual Report of 2015 with 4,600+ shares.</p>
           </WorkExperience>
           <WorkExperience
-            company="Cowell"
-            company_description="Cowell is a MIS company for Tourism Industry based in Taiwan, since 1988."
+            title="Cowell"
+            description="Cowell is a MIS company for Tourism Industry based in Taiwan, since 1988."
             duration="07/2014 – 08/2014"
             location="Taipei, Taiwan">
             <p>Implemented functions according to customer's needs using ASP.net</p>
             <p>Fixed issues</p>
           </WorkExperience>
+        </Section>
+        <Section title="ORGANIZATIONS">
+          <Organization
+            title="Calls Over Ridges"
+            duration="01/2017 – Present"
+            description="Built a website for supporters to sign up for the project, keep in touch with their supported kid and receive updates from Nepal.">
+          </Organization>
+          <Organization
+            title="Marriage Equality Platform"
+            duration="11/2016 – Present"
+            description="Built a website for NPO that is pursuing to fix the law for gay marriage in Taiwan, aiming to share correct knowledge about gay marriage.">
+          </Organization>
         </Section>
       </div>
     );
