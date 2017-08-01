@@ -14,7 +14,7 @@ export default class Award extends Component {
       <div className={classnames('Award', className)} {...props}>
         <h2>{this.props.title}</h2>
         <h3 className="description description-of-award">{this.props.description}</h3>
-        <p className="held_by">{this.props.held_by}</p>
+        <p className="heldBy">{this.props.heldBy}</p>
         <div className="experience-list">{this.props.children}</div>
       </div>
     );

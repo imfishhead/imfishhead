@@ -66,12 +66,12 @@ class App extends Component {
         <Section title="AWARDS">
           <Award
             title="HackEasy.life Hackathon - Second Place Prize"
-            held_by="Gandi.net">
+            heldBy="Gandi.net">
             <p>A chatbot shopping system named EchoBuy that surveys your shopping needs, get recommendation from your friends then allows you to checkout items directly all inside the chatroom.</p>
           </Award>
           <Award
             title="Booking.com Hackathon Taipei - Third Place Prize"
-            held_by="Booking.com">
+            heldBy="Booking.com">
             <p>An app that analyzes your Instagram likes, run through Flickr photos to recommend you a place to start traveling, along with integration of Booking.com and Skyscanner API to recommend plane tickets to buy and places to stay.</p>
           </Award>
         </Section>
