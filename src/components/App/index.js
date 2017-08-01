@@ -27,6 +27,30 @@ class App extends Component {
           <Education>
           </Education>
         </Section>
+        <Section>
+          <WorkExperience
+            company="Backer-Founder"
+            company_description="Asia's leading crowdfunding consulting agency based in Taiwan that has lead more than 300 campaigns and raised more than 600 million US dollars."
+            duration="09/2015 – 08/2017"
+            location="Taipei, Taiwan">
+            <p>Developing and maintaining features on Backme, a crowdfunding tool that raised over 9 million USD with 140,000+ users and held 500+ projects. Backme consists of 25,000 lines of ruby codes and nearly 15,000 lines of javascript.</p>
+            <p>Constructed full-featured (with the combination of 100+ features) admin system for Backme to substitute former admin panel produced by Active Admin. Reducing the number of necessary steps to build a project from 10 to 3 and raising user satisfaction.</p>
+            <p>Developed various e-commerce/crowdfunding features for Backme - delivery notification system, coupon code system for pre-campaigns, customized progress bar for embedding on websites, project management system etc.</p>
+            <p>Build RESTful APIs</p>
+            <p>Developed promotion tracking system with shortening url feature, combining Google's UTM tracking feature. Built graphs to show clicks and money brought by each shortened url.</p>
+            <p>Implemented unit tests and feature tests using RSpec and Capybara.</p>
+            <p>Built campaign page of Implosion: Zero Day, with page views of 13,000+ at highest, which brought $428,853 USD to the campaign, with 1,670 backers on Kickstarter.</p>
+            <p>Built Crowdfunding Annual Report of 2015 with 4,600+ shares.</p>
+          </WorkExperience>
+          <WorkExperience
+            company="Cowell"
+            company_description="Cowell is a MIS company for Tourism Industry based in Taiwan, since 1988."
+            duration="07/2014 – 08/2014"
+            location="Taipei, Taiwan">
+            <p>Implemented functions according to customer's needs using ASP.net</p>
+            <p>Fixed issues</p>
+          </WorkExperience>
+        </Section>
       </div>
     );
   }
